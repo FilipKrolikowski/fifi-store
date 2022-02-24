@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fifi-store/static/css/main.265dc033.css",
+    "main.js": "/fifi-store/static/js/main.316e9148.js",
+    "static/media/header-photo.jpg": "/fifi-store/static/media/header-photo.0490ece7826f8c5a927e.jpg",
+    "static/media/header-photo-2.jpg": "/fifi-store/static/media/header-photo-2.3fd953b1659882cebf98.jpg",
+    "static/media/about-us.jpg": "/fifi-store/static/media/about-us.6017744e1f48dd776d76.jpg",
+    "static/media/Logo.png": "/fifi-store/static/media/Logo.e1686b05a82171f361ab.png",
+    "static/media/bag-icon.svg": "/fifi-store/static/media/bag-icon.5e74146cc56e09cbbcc06eb0dccd393d.svg",
+    "static/media/bag-circle.svg": "/fifi-store/static/media/bag-circle.31929092271be35066573483da93def0.svg",
+    "static/media/delete-icon.svg": "/fifi-store/static/media/delete-icon.a44eb946a2874dd0541a0f562fe38b74.svg",
+    "static/media/gray-star.svg": "/fifi-store/static/media/gray-star.a0b4d414a3b441e25e8cb07f8687553e.svg",
+    "static/media/user-circle.svg": "/fifi-store/static/media/user-circle.54c34d2de825c5232455b6c88e47a309.svg",
+    "static/media/gold-star.svg": "/fifi-store/static/media/gold-star.938da4887536a53bdf2fe8d321ec97b4.svg",
+    "index.html": "/fifi-store/index.html",
+    "static/media/burger.svg": "/fifi-store/static/media/burger.e60fa69398b75b200216075f7a9a5d91.svg",
+    "main.265dc033.css.map": "/fifi-store/static/css/main.265dc033.css.map",
+    "main.316e9148.js.map": "/fifi-store/static/js/main.316e9148.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.265dc033.css",
+    "static/js/main.316e9148.js"
+  ]
+}

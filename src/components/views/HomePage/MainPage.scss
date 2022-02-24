@@ -1,0 +1,124 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.main-page {
+  background: #fafafa;
+  .main-page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .main-page-photo-container {
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &:hover {
+      .fifi,
+      .item-desc,
+      .item-name,
+      .item-btn {
+        transform: translateX(0);
+        transition: all 1.5s;
+        opacity: 1;
+      }
+    }
+    .fifi {
+      color: #fff;
+      font-weight: 400;
+      font-size: 24px;
+      font-family: Roboto;
+      transform: translateX(-10%);
+      transition: all 1.5s;
+      opacity: 0;
+    }
+    .item-name {
+      color: #fff;
+      font-weight: 100;
+      font-size: 60px;
+      letter-spacing: 2px;
+      font-family: Roboto;
+      text-transform: uppercase;
+      transform: translateX(10%);
+      transition: all 1.5s;
+      opacity: 0;
+    }
+    .item-desc {
+      color: #fff;
+      font-weight: 300;
+      font-size: 16px;
+      font-family: Roboto;
+      transform: translateX(-10%);
+      transition: all 1.5s;
+      opacity: 0;
+    }
+    .item-btn {
+      background: #ceb07c;
+      color: #fff;
+      font-size: 14px;
+      font-family: Roboto;
+      border: none;
+      padding: 12px 25px;
+      transform: translateX(10%);
+      transition: all 1.5s;
+      opacity: 0;
+    }
+  }
+
+  .our-products {
+    font-size: 30px;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .about-us-title {
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 100;
+    color: #000;
+    text-transform: uppercase;
+  }
+  .about-us-image {
+    width: 90%;
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.5s;
+    }
+  }
+  .about-text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 200%;
+    color: #000;
+    width: 90%;
+  }
+  @media screen and (max-width: 991px) {
+    .main-page-photo-container {
+      height: 400px;
+      .fifi {
+        font-size: 18px;
+      }
+      .item-name {
+        font-size: 42px;
+      }
+      .item-desc {
+        font-size: 14px;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .main-page-photo-container {
+      height: 300px;
+      .fifi {
+        font-size: 16px;
+      }
+      .item-name {
+        font-size: 36px;
+      }
+      .item-desc {
+        font-size: 12px;
+      }
+    }
+  }
+}

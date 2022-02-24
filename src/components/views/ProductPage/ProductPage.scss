@@ -1,0 +1,142 @@
+.product-page {
+  background: #fafafa;
+  max-width: 1400px;
+  margin: 0 auto;
+  .product-page-image-container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    .product-page-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #fff;
+    }
+  }
+  .custom-slider {
+    background: #fff;
+  }
+
+  .main-image-container {
+    height: 500px;
+    background: #fff;
+    padding: 20px 0;
+  }
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .info-container {
+    background: #fff;
+    padding: 30px 20px;
+    .discount {
+      width: max-content;
+      padding: 5px 17px;
+      color: #fff;
+      background: #ceb07c;
+      font-size: 12px;
+      font-family: Roboto;
+      font-weight: 300;
+    }
+    .name {
+      font-size: 38px;
+      text-transform: uppercase;
+      font-family: Roboto;
+      font-weight: 700;
+      border-bottom: 1px solid rgb(211, 211, 211);
+    }
+    .item-price {
+      font-size: 36px;
+      font-family: Roboto;
+      font-weight: 300;
+    }
+    .old-price {
+      color: #9c9999;
+      font-family: Roboto;
+      font-size: 26px;
+      font-weight: 300;
+      text-decoration: line-through;
+    }
+    .size {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 300;
+      text-transform: uppercase;
+      .custom-toggle {
+        padding: 7px 12px;
+        border: 1px solid #e6b669;
+        border-radius: 25px;
+        color: #e6b669;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+    .quantity {
+      color: #000;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      .quantity-change {
+        padding: 10px 12px 7px 12px;
+        border: 1px solid #e6b669;
+        border-radius: 25px;
+        width: max-content;
+      }
+    }
+    .desc {
+      color: #000;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 170%;
+      border-top: 1px solid rgb(211, 211, 211);
+    }
+    @media screen and (max-width: 767px) {
+      .name {
+        font-size: 26px;
+      }
+      .item-price {
+        font-size: 26px;
+      }
+      .old-price {
+        font-size: 18px;
+      }
+    }
+  }
+  .tabs-container {
+    .tab {
+      background: #efefef;
+      padding: 20px 20px;
+      font-family: Roboto;
+      font-weight: 700;
+      &:hover {
+        background: #d6d5d5;
+      }
+    }
+    .active {
+      background: #d6d5d5;
+    }
+  }
+  .long-desc {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 170%;
+  }
+  .other-items-title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 100;
+  }
+}
+.modal-image-container {
+  max-height: 90vh;
+  overflow: hidden;
+  .modal-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}

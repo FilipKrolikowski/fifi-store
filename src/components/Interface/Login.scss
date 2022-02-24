@@ -1,0 +1,29 @@
+.login-page-container {
+  max-width: 1400px;
+  margin-top: 200px;
+  min-height: 600px;
+  .login-title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .form-container {
+    background: #fff;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    width: max-content;
+    .login-label {
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 300;
+      width: 50px;
+    }
+    .login-input {
+      background: rgb(247, 247, 247);
+      border: 1px solid rgb(221, 221, 221);
+      outline: none;
+      padding: 7px 4px;
+      width: 300px;
+    }
+  }
+}

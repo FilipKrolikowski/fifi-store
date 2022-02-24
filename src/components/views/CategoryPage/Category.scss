@@ -1,0 +1,111 @@
+.category {
+  max-width: 1400px;
+  background: #fafafa;
+  margin: 0 auto;
+  padding-top: 100px;
+  .title-container {
+    .title {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    .border-line {
+      width: 100%;
+      height: 4px;
+      border-bottom: 1px solid rgb(216, 215, 215);
+      border-top: 1px solid rgb(216, 215, 215);
+    }
+    .items-number {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 21px;
+    }
+  }
+  .left-side-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 26px;
+  }
+  .most-often-bought {
+    border: 1px solid rgb(216, 215, 215);
+    .most-often-bought-container {
+      position: relative;
+      background: #fff;
+      padding: 20px 30px;
+      border-bottom: 1px solid rgb(216, 215, 215);
+      height: 120px;
+      &:hover {
+        background: rgb(233, 233, 233);
+      }
+      .discount {
+        position: absolute;
+        top: 25px;
+        left: -10px;
+        padding: 4px 15px;
+        color: #fff;
+        background: #ceb07c;
+        font-size: 10px;
+        font-family: Roboto;
+        font-weight: 300;
+        opacity: 1;
+        transition: all 0.2s ease-in-out;
+      }
+      .most-often-bought-name {
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 16px;
+      }
+      .most-often-bought-img-container {
+        height: 100%;
+        width: 60px;
+        .most-often-bought-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .most-often-bought-price-container {
+      .old-price {
+        color: #9c9999;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: line-through;
+      }
+      .item-price {
+        font-size: 15px;
+        font-family: Roboto;
+        font-weight: 400;
+      }
+    }
+  }
+  .settings-bar {
+    background: #fff;
+    border: 1px solid rgb(216, 215, 215);
+    & > div > h1,
+    select {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 60px;
+    }
+    & > select {
+      padding: 2px 5px;
+    }
+    .filter-select {
+      border: 1px solid rgb(216, 215, 215);
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .category {
+    padding-top: 50px;
+  }
+}
+.custom-toggle {
+  padding: 5px 10px;
+  border: 1px solid rgb(221, 221, 221) !important;
+  border-radius: 0;
+}

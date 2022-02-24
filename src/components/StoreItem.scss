@@ -1,0 +1,122 @@
+.store-item-container {
+  .store-item {
+    background: #fff;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    .icons-container {
+      width: 100%;
+      transform: translateY(-100%);
+      transition: all 0.3s ease-in-out;
+      position: absolute;
+      opacity: 0;
+      .item-icon {
+        width: 42px;
+        height: 42px;
+        background: #ebebeb;
+        padding: 8px;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(0);
+        &:hover {
+          transition: all 0.3s ease-in-out;
+          border-radius: 50%;
+          background: #e6b669;
+          transform: rotate(360deg);
+        }
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      transform: translateY(-5px);
+      transition: all 0.3s ease-in-out;
+      box-shadow: 8px 8px 25px -21px rgba(66, 68, 90, 1);
+      .discount {
+        transform: translateY(-10px);
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+      }
+      .item-second-image {
+        transform: translateY(100%);
+        transition: all 0.3s ease-in-out;
+        opacity: 1;
+      }
+      .item-image {
+        transform: translateY(100%);
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+      }
+      .icons-container {
+        transform: translateY(20%);
+        transition: all 0.3s ease-in-out;
+        opacity: 1;
+        z-index: 3;
+      }
+    }
+
+    .discount {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      padding: 5px 17px;
+      color: #fff;
+      background: #ceb07c;
+      font-size: 12px;
+      font-family: Roboto;
+      font-weight: 300;
+      opacity: 1;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  .image-container {
+    position: relative;
+    width: 55%;
+    height: 100%;
+    overflow: hidden;
+    .item-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+    }
+    .item-second-image {
+      width: 100%;
+      height: 100%;
+      top: -100%;
+      position: absolute;
+      object-fit: cover;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  .item-name {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+  .item-price {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    .brutto {
+      font-weight: 300;
+    }
+  }
+  .old-price {
+    color: #9c9999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: line-through;
+  }
+}
+.link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #000;
+  &:hover {
+    color: #000;
+  }
+}

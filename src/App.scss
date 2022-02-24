@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Roboto:wght@100;300;400&display=swap");
+
+#root {
+  background: #fafafa;
+}
+body {
+  background: #fafafa;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.custom-btn {
+  border: 1px solid #ceb07c;
+  color: #ceb07c;
+  background: #fff;
+  font-size: 14px;
+  font-family: Roboto;
+  padding: 12px 25px;
+  font-weight: 600;
+  transition: all 0.5s;
+  &:hover {
+    background: #ceb07c;
+    color: #fff;
+    transition: all 0.5s;
+  }
+}
+@media screen and (max-width: 575px) {
+  .custom-btn {
+    font-size: 12px;
+    padding: 10px 21px;
+  }
+}

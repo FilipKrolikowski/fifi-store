@@ -1,0 +1,65 @@
+.upcoming-item {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s;
+
+  .upcoming-item-content {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.1);
+      .name {
+        transform: translateX(-10%);
+        transition: all 0.5s;
+        opacity: 0;
+      }
+
+      .coming-soon {
+        transform: translateX(10%);
+        transition: all 0.5s;
+        opacity: 0;
+      }
+    }
+  }
+
+  .name {
+    color: #fff;
+    font-size: 28px;
+    font-family: Roboto;
+    transition: all 0.5s;
+  }
+  .coming-soon {
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto;
+    transition: all 0.5s;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .upcoming-item {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .upcoming-item {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .upcoming-item {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .upcoming-item {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .upcoming-item {
+    height: 200px;
+  }
+}

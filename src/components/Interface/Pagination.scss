@@ -1,0 +1,28 @@
+.pagination {
+  margin: 0;
+}
+
+.page-item.active .page-link {
+  background: #af9260 !important;
+  z-index: 2;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background: #af9260;
+  }
+}
+.page-item .page-link {
+  background: #ceb07c;
+  margin: 0 5px;
+  border-radius: 50% !important;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background: #af9260;
+  }
+}

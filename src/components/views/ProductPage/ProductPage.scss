@@ -36,30 +36,25 @@
       color: #fff;
       background: #ceb07c;
       font-size: 12px;
-      font-family: Roboto;
       font-weight: 300;
     }
     .name {
       font-size: 38px;
       text-transform: uppercase;
-      font-family: Roboto;
       font-weight: 700;
       border-bottom: 1px solid rgb(211, 211, 211);
     }
     .item-price {
       font-size: 36px;
-      font-family: Roboto;
       font-weight: 300;
     }
     .old-price {
       color: #9c9999;
-      font-family: Roboto;
       font-size: 26px;
       font-weight: 300;
       text-decoration: line-through;
     }
     .size {
-      font-family: Roboto;
       font-size: 20px;
       font-weight: 300;
       text-transform: uppercase;
@@ -74,7 +69,6 @@
     }
     .quantity {
       color: #000;
-      font-family: Roboto;
       font-size: 16px;
       font-weight: 400;
       text-transform: uppercase;
@@ -87,7 +81,6 @@
     }
     .desc {
       color: #000;
-      font-family: Roboto;
       font-size: 16px;
       font-weight: 300;
       line-height: 170%;
@@ -109,7 +102,6 @@
     .tab {
       background: #efefef;
       padding: 20px 20px;
-      font-family: Roboto;
       font-weight: 700;
       &:hover {
         background: #d6d5d5;
@@ -120,13 +112,11 @@
     }
   }
   .long-desc {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 300;
     line-height: 170%;
   }
   .other-items-title {
-    font-family: Roboto;
     font-size: 28px;
     font-weight: 100;
   }

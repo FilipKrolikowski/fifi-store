@@ -5,7 +5,6 @@
   padding-top: 100px;
   .title-container {
     .title {
-      font-family: Roboto;
       font-weight: 300;
       font-size: 30px;
       text-transform: uppercase;
@@ -17,13 +16,11 @@
       border-top: 1px solid rgb(216, 215, 215);
     }
     .items-number {
-      font-family: Roboto;
       font-weight: 300;
       font-size: 21px;
     }
   }
   .left-side-text {
-    font-family: Roboto;
     font-weight: 400;
     font-size: 26px;
   }
@@ -46,13 +43,11 @@
         color: #fff;
         background: #ceb07c;
         font-size: 10px;
-        font-family: Roboto;
         font-weight: 300;
         opacity: 1;
         transition: all 0.2s ease-in-out;
       }
       .most-often-bought-name {
-        font-family: Roboto;
         font-weight: 300;
         font-size: 16px;
       }
@@ -69,14 +64,12 @@
     .most-often-bought-price-container {
       .old-price {
         color: #9c9999;
-        font-family: Roboto;
         font-size: 14px;
         font-weight: 400;
         text-decoration: line-through;
       }
       .item-price {
         font-size: 15px;
-        font-family: Roboto;
         font-weight: 400;
       }
     }
@@ -86,7 +79,6 @@
     border: 1px solid rgb(216, 215, 215);
     & > div > h1,
     select {
-      font-family: Roboto;
       font-weight: 300;
       font-size: 16px;
       line-height: 60px;

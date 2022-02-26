@@ -4,55 +4,29 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  //   &:hover {
-  //     .fifi,
-  //     .item-desc,
-  //     .item-name,
-  //     .item-btn {
-  //       transform: translateX(0);
-  //       transition: all 1.5s;
-  //       opacity: 1;
-  //     }
-  //   }
   .fifi {
     color: #fff;
     font-weight: 400;
     font-size: 24px;
-    font-family: Roboto;
-    // transform: translateX(-10%);
-    // transition: all 1.5s;
-    // opacity: 0;
   }
   .item-name {
     color: #fff;
     font-weight: 100;
     font-size: 60px;
     letter-spacing: 2px;
-    font-family: Roboto;
     text-transform: uppercase;
-    // transform: translateX(10%);
-    // transition: all 1.5s;
-    // opacity: 0;
   }
   .item-desc {
     color: #fff;
     font-weight: 300;
     font-size: 16px;
-    font-family: Roboto;
-    // transform: translateX(-10%);
-    // transition: all 1.5s;
-    // opacity: 0;
   }
   .item-btn {
     background: #ceb07c;
     color: #fff;
     font-size: 14px;
-    font-family: Roboto;
     border: none;
     padding: 12px 25px;
-    // transform: translateX(10%);
-    // transition: all 1.5s;
-    // opacity: 0;
   }
   .hide-item-left {
     transform: translateX(10%);

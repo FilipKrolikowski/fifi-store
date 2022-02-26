@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 4;
   background: #fff;
   transition: all 0.3s;
   border-bottom: 1px solid rgb(216, 215, 215);
@@ -27,7 +27,6 @@
     .login-container {
       margin-right: 30px;
       .login-btn {
-        font-family: "Roboto", sans-serif;
         font-size: 14px;
         color: rgb(124, 124, 124);
         cursor: pointer;
@@ -76,7 +75,6 @@
             }
           }
           .cart-preview-name {
-            font-family: Roboto;
             font-weight: 400;
             font-size: 18px;
             text-overflow: ellipsis;
@@ -85,17 +83,14 @@
             white-space: nowrap;
           }
           .cart-preview-quantity {
-            font-family: Roboto;
             font-weight: 600;
             font-size: 14px;
           }
           .cart-preview-size {
-            font-family: Roboto;
             font-weight: 600;
             font-size: 14px;
           }
           .cart-preview-price {
-            font-family: Roboto;
             font-weight: 600;
             font-size: 14px;
           }
@@ -107,7 +102,6 @@
             }
           }
           .total-text {
-            font-family: Roboto;
             font-weight: 600;
             font-size: 16px;
           }
@@ -144,7 +138,6 @@
 
   .store-nav {
     .nav-item {
-      font-family: "Roboto", sans-serif;
       font-size: 14px;
       color: #000;
       font-weight: 700;

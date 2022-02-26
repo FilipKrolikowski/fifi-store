@@ -158,7 +158,9 @@ function Navbar() {
         <div className="mt-4">
           {categories.map((item) => (
             <Link key={`nav-${item.name}`} to={`/category/${item.id}`} className="custom-nav-link">
-              <div className="mobile-nav-item">{item.name}</div>
+              <div onClick={() => setShowSideMenu(false)} className="mobile-nav-item">
+                {item.name}
+              </div>
             </Link>
           ))}
         </div>

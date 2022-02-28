@@ -5,11 +5,13 @@ import CartIcon from "../../../images/custom-icons/CartIcon";
 import { AppContext } from "../../../app-context";
 import { getItemPrice } from "../../utils/getItemPrice";
 import { Link } from "react-router-dom";
+import { getTotalQuantity } from "../../utils/getTotalQuantity";
+import { getTotalPrice } from "../../utils/getTotalPrice";
 
 function AddedToCartModal({ item, display = "button", action = () => {}, size = "xs/s", quantity = 1 }) {
   const [showModal, setShowModal] = useState(false);
   const [isHover, setIsHover] = useState(false);
-  const { addItemToCart } = useContext(AppContext);
+  const { addItemToCart, currentCart } = useContext(AppContext);
 
   const handleAddItem = () => {
     setShowModal(true);
@@ -51,13 +53,16 @@ function AddedToCartModal({ item, display = "button", action = () => {}, size = 
               </div>
             </div>
             <div className="col-12 col-lg-6 d-flex flex-column">
-              <div className="name mb-3 mt-4 mt-lg-0">{item.name}</div>
+              <div className="added mt-4 mt-lg-0">Dodano:</div>
+              <div className="name mb-3 mt-2 mt-lg-0">{item.name}</div>
               <div className="price mb-3">Cena: {getItemPrice(item)} zł</div>
               <div className="price mb-3">Rozmiar: {size}</div>
               <div className="price mb-3">Ilość: {quantity}</div>
               <div className="mt-auto">
-                <div className="cart-items-count mb-2">Ilość produktów w Twoim koszyku: </div>
-                <div className="total">Razem: </div>
+                <div className="cart-items-count mb-2">
+                  Ilość produktów w Twoim koszyku: {getTotalQuantity(currentCart)}
+                </div>
+                <div className="total">Razem: {getTotalPrice(currentCart)} zł</div>
               </div>
             </div>
           </div>

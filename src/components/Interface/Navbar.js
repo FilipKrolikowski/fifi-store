@@ -24,7 +24,6 @@ function Navbar() {
   };
 
   useEffect(() => {
-    document.title = "FIFI Store";
     window.addEventListener("scroll", handleHideHeader);
     return () => {
       window.removeEventListener("scroll", handleHideHeader);
@@ -41,7 +40,7 @@ function Navbar() {
             </div>
           </div>
           <Link to="/" className="link">
-            <div className="logo-container d-flex align-items-center justify-content-end">
+            <div className="logo-container d-flex align-items-center justify-content-center">
               <div>
                 <img src={Logo} alt="logo" className="logo" />
               </div>

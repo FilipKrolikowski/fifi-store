@@ -34,7 +34,7 @@ function Footer() {
           </div>
         ))}
       </div>
-      <div className="all-rights-reserved text-center mt-3 pt-3 mx-5">© 2021 Fifi. All rights reserved.</div>
+      <div className="all-rights-reserved text-center mt-3 pt-3 mx-5">© 2022 Fifi. All rights reserved.</div>
     </div>
   );
 }

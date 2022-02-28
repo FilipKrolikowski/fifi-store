@@ -11,7 +11,7 @@
     padding: 10px 40px;
     border-bottom: 1px solid rgb(216, 215, 215);
     .logo-container {
-      width: 75%;
+      margin-left: 250px;
       .logo {
         height: 110px;
         width: 110px;
@@ -117,6 +117,9 @@
   @media screen and (max-width: 991px) {
     .header {
       padding: 0px 10px;
+      .logo-container {
+        margin-left: 0;
+      }
     }
   }
   @media screen and (max-width: 575px) {
